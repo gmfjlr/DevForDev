@@ -1,4 +1,5 @@
----layout: documentation
+---
+layout: documentation
 title: Documentation
 permalink: /documentation/
 ---

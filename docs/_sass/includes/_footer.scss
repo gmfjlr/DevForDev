@@ -100,72 +100,72 @@ padding-bottom: $footer-padding;
     } 
   }
 }
-@include media-query-max($on-mobile) { 
-  .footer { 
-    padding-left: $base-mobile-padding; 
+@include media-query-max($on-mobile) {
+  .footer {
+    padding-left: $base-mobile-padding;
     padding-right: $base-mobile-padding;
- > .navigation { 
+ > .navigation {
       > ul {
         display: flex;
         display: -webkit-flex;
         justify-content: space-around;
-        width: 100%; 
+        width: 100%;
       }
  > ul > li {
-        padding-left: 0; 
+        padding-left: 0;
       }
  .avatar {
-        display: none; 
+        display: none;
       }
  .footer-blog {
-        display: none; 
+        display: none;
       }
  .footer-connect {
-        display: none; 
-      } 
+        display: none;
+      }
     }
- > .copyright { 
-      border: none; 
+ > .copyright {
+      border: none;
       justify-content: center;
  .right {
-        display: none; 
-      } 
-    } 
+        display: none;
+      }
+    }
   }
 }
-@media screen and (min-width: $on-mobile + 1) and (max-width: $on-desktop - 1) { 
-  .footer { 
-    padding-left: $base-tablet-padding; 
+@media screen and (min-width: $on-mobile + 1) and (max-width: $on-desktop - 1) {
+  .footer {
+    padding-left: $base-tablet-padding;
     padding-right: $base-tablet-padding;
- > .navigation { 
+ > .navigation {
       justify-content: center;
  & > ul > li:first-child {
-        padding-left: 0; 
+        padding-left: 0;
       }
  .avatar {
-        display: none; 
-      } 
-    } 
+        display: none;
+      }
+    }
   }
 }
-@include media-query-min($on-desktop) { 
-  .footer { 
-    padding-left: $base-desktop-padding; 
+@include media-query-min($on-desktop) {
+  .footer {
+    padding-left: $base-desktop-padding;
     padding-right: $base-desktop-padding;
- > .navigation { 
-      padding-left: $footer-padding; 
+ > .navigation {
+      padding-left: $footer-padding;
       padding-right: $footer-padding;
  .avatar {
-        display: block; 
-      } 
+        display: block;
+      }
     }
- > .socials { 
+ > .socials {
       ul {
-        justify-content: flex-end; 
+        justify-content: flex-end;
       }
  ul li {
-        padding-left: $footer-padding / 2; 
-      } 
-    } 
+        padding-left: $footer-padding / 2;
+      }
+    }
   }
 }

@@ -5,7 +5,3 @@ theme: jekyll-theme-cayman
 # Date format settings
 date_format: "%b %-d, %Y"
 # End
-
-# Site permalink settings
-permalink  /:title/
-# End

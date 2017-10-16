@@ -25,11 +25,11 @@ markdown: kramdown
 highlighter: rouge
   
 kramdown:
- input: GFM  
- hard_wrap: false
+  input: GFM
+  hard_wrap: false
 
-sass:
-  style: compressed
+#sass:
+#  style: compressed
   
 # theme: minima
 # End

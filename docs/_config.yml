@@ -36,7 +36,7 @@ sass:
 # Gem settings
 gems:
   - jekyll-feed
-#  - jekyll-seo-tag
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-avatar
   - jekyll-github-metadata
@@ -49,11 +49,15 @@ exclude:
 # End
 
 # Github metadata settings
-# repository: MvvmCross/MvvmCross
+repository: MvvmCross/MvvmCross
 # End
 
 # jekyll-seo-tag settings
-
+social:
+  name: MvvmCross
+  links:
+    - https://twitter.com/MvvmCross
+    - https://github.com/MvvmCross
 
 logo: /assets/img/logo/MvvmCross-avatar.png
 

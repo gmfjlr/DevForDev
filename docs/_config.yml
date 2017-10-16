@@ -33,3 +33,11 @@ highlighter: rouge
   
 # theme: minima
 # End
+
+# Date format settings
+date_format: "%b %-d, %Y"
+# End
+
+# Site permalink settings
+permalink: /:title/
+# End

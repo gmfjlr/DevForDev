@@ -28,8 +28,8 @@ highlighter: rouge
 #  input: GFM  
 #  hard_wrap: false
 
-sass:  
-  style: compressed
+# sass:  
+#   style: compressed
   
 # theme: minima
 # End

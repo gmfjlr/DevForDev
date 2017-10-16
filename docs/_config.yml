@@ -17,3 +17,16 @@ MvvmCross is a convention based MVVM framework for Xamarin and Windows, 
   with strong community support, filled to the brim with useful features.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.mvvmcross.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+  markdown: kramdown
+  highlighter: rouge
+kramdown:  
+  input: GFM  
+  hard_wrap: false
+
+sass:  
+  style: compressed
+  
+# theme: minima
+# End

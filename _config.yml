@@ -1,32 +1,11 @@
+# Theme settings
 theme: jekyll-theme-cayman
+# End
 
 # Date format settings
 date_format: "%b %-d, %Y"
 # End
 
 # Site permalink settings
-permalink: /:title/
+permalink  /:title/
 # End
-
-# Site menu settings
-menu:  
-  - title: "Blog"    
-    url: "/blog"  
-  - title: "Documentation"    
-    url: "/documentation"  
-  - title: "Support"    
-    url: "/support"
-# End
-
-category_order:  
-  - 'Getting-started'  
-  - 'Fundamentals'  
-  - 'Platform specifics'  
-  - 'Presenters'  
-  - 'Plugins'  
-  - 'Testing'  
-  - 'Samples'  
-  - 'Upgrading'  
-  - 'TipCalc Tutorial'  
-  - 'Contributing'  
-  - 'Licensing'

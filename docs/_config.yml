@@ -49,17 +49,17 @@ exclude:
 # End
 
 # Github metadata settings
-repository: MvvmCross/MvvmCross
+# repository: MvvmCross/MvvmCross
 # End
 
 # jekyll-seo-tag settings
-social:
-  name: MvvmCross
-  links:
-    - https://twitter.com/MvvmCross
-    - https://github.com/MvvmCross
+#social:
+#  name: MvvmCross
+#  links:
+#    - https://twitter.com/MvvmCross
+#    - https://github.com/MvvmCross
 
-logo: /assets/img/GMF-logo-horizontal-4-color.jpg
+logo: /assets/img/logo/MvvmCross-avatar.png
 
 twitter:
   username: MvvmCross

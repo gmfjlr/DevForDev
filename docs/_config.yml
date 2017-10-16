@@ -24,11 +24,11 @@ url: "https://gmfjlr.github.io/GMF-PointOfSales" # the base hostname & protocol 
 markdown: kramdown
 highlighter: rouge
   
-# kramdown:  
-#  input: GFM  
-#  hard_wrap: false
+kramdown:
+ input: GFM  
+ hard_wrap: false
 
-sass:  
+sass:
   style: compressed
   
 # theme: minima

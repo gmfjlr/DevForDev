@@ -14,25 +14,52 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: GMF
-description: > # this means to ignore newlines until "baseurl:"  
-  MvvmCross is a convention based MVVM framework for Xamarin and Windows,  
-  with strong community support, filled to the brim with useful features.
+description: > # this means to ignore newlines until "baseurl:"
+  Point of Sales is a convention based C# framework 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gmfjlr.github.io/GMF-PointOfSales" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-  
+
 kramdown:
   input: GFM
   hard_wrap: false
 
 sass:
   style: compressed
-  
+
 # theme: minima
 # End
+
+# Gem settings
+gems:
+  - jekyll-feed
+#  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-avatar
+  - jekyll-github-metadata
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - SITECHANGELOG.md
+# End
+
+# Github metadata settings
+# repository: MvvmCross/MvvmCross
+# End
+
+# jekyll-seo-tag settings
+
+
+logo: /assets/img/logo/MvvmCross-avatar.png
+
+twitter:
+  username: MvvmCross
+#End
 
 # Date format settings
 date_format: "%b %-d, %Y"
@@ -41,3 +68,33 @@ date_format: "%b %-d, %Y"
 # Site permalink settings
 permalink: /:title/
 # End
+
+# Collections settings
+collections:
+  documentation:
+    output: true
+    permalink: /:collection/:path
+# End
+
+# Site menu settings
+menu:
+  - title: "Blog"
+    url: "/blog"
+  - title: "Documentation"
+    url: "/documentation"
+  - title: "Support"
+    url: "/support"
+# End
+
+category_order:
+  - 'Getting-started'
+  - 'Fundamentals'
+  - 'Platform specifics'
+  - 'Presenters'
+  - 'Plugins'
+  - 'Testing'
+  - 'Samples'
+  - 'Upgrading'
+  - 'TipCalc Tutorial'
+  - 'Contributing'
+  - 'Licensing'

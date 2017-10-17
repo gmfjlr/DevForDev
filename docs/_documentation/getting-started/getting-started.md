@@ -4,7 +4,7 @@ title: Getting Started with GMF
 category: Getting-started
 order: 1
 ---
-NuGet | Continuous Integration
+NuGet | Continuous Integration TEst
 -------|-----------
 [![NuGet](https://img.shields.io/nuget/v/MvvmCross.svg)](https://www.nuget.org/packages/MvvmCross/) | [![MyGet](https://img.shields.io/myget/mvvmcross/v/MvvmCross.svg)](https://www.myget.org/F/mvvmcross/api/v3/index.json)
 

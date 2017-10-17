@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Getting Started with MvvmCross
+title: Getting Started with GMF
 category: Getting-started
 order: 1
 ---

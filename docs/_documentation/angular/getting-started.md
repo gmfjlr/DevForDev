@@ -5,4 +5,4 @@ title: Getting Started
 order: 1
 ---
 
-Please visit [https://angular.io/]https://angular.io/
+Please visit [https://angular.io/](https://angular.io/)

@@ -9,16 +9,16 @@ Please visit [https://angular.io/](https://angular.io/)
 
 ### Evironment
 
-  - [NodeJs](https://nodejs.org/en/)
-  - [Gulp](https://gulpjs.com/)
-  - [Grunt](https://gruntjs.com/)
-  - [Sass](http://sass-lang.com/)
+  - Prior environment [NodeJs](https://nodejs.org/en/)
+  - Automatic tasks [Gulp](https://gulpjs.com/)
+  - Automatic tasks [Grunt](https://gruntjs.com/)
+  - Programatic Css [Sass](http://sass-lang.com/)
 
------------
+---------
 
-### IDE
+### IDE editors
 
-  - [Atom](https://atom.io/)
-  - [Atom Ide](https://ide.atom.io/)
-  - [Sublime Text](https://www.sublimetext.com/3)
-  - [Visual Studio Code](https://code.visualstudio.com/)
+  - Preferd [Atom](https://atom.io/)
+  - Packages [Atom Ide](https://ide.atom.io/)
+  - Nice editor [Sublime Text](https://www.sublimetext.com/3)
+  - Nice editor [Visual Studio Code](https://code.visualstudio.com/)

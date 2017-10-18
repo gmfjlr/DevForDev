@@ -2,7 +2,7 @@
 layout: documentation
 title: Syntax
 category: Fundamental
-sorder: 11
+sorder: 16
 ---
 
 ## Naming Conventions

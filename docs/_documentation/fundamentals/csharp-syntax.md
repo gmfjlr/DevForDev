@@ -18,7 +18,8 @@ Namespaces | Pascal Case – Should start with company namespace, followed by ap
 ### Case Sensitivity
 
 To avoid confusion, follow these rules regarding the use of case sensitivity:
-  - DO NOT create two namespaces with names that differ only by case.  
+
+  - DO NOT create two namespaces with names that differ only by case.  
   - DO NOT create a method with parameter names that differ only by case.  
   - DO NOT create methods with names that only differ by single leter or number.  
   - DO NOT create a type with property names that differ only by case  

@@ -1,7 +1,7 @@
 ---
 layout: documentation
 title: Syntax
-category: Fundamental
+category: Fundamentals
 sorder: 16
 ---
 

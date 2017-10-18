@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Syntax
+title: C# Syntax
 category: Fundamentals
 order: 16
 ---

@@ -1,6 +1,6 @@
 ---
 layout: documentation
-category: angular
+category: Angular
 title: Getting Started
 order: 1
 ---

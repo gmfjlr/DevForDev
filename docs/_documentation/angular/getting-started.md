@@ -9,10 +9,12 @@ Please visit [https://angular.io/](https://angular.io/)
 
 ### Evironment
 
-  - [NodeJs](https://nodejs.org/en/)
+  - [NodeJs](https://nodejs.org/en/)
   - [Gulp](https://gulpjs.com/)
   - [Grunt](https://gruntjs.com/)
   - [Sass](http://sass-lang.com/)
+
+-----------
 
 ### IDE
 

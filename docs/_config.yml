@@ -90,6 +90,7 @@ menu:
 # End
 
 category_order:
+  - 'Angular'
   - 'Getting-started'
   - 'Fundamentals'
   - 'Platform specifics'

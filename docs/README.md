@@ -1,10 +1,10 @@
-# About PoS
+# About DevForDev
 
-Mvxtheme is the Jekyll theme written for PoS, using a responsive design to optimize the display of mobile devices.
+Based in the Mvxtheme is the Jekyll theme written for MvvmCross, we override this theme using a responsive design to optimize the display of mobile devices.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at [GMF-PoS](https://github.com/PoS/PoS/).
+Bug reports and pull requests are welcome on GitHub at [DevForDev](https://github.com/DevForDev/).
 
 ## Development
 
@@ -14,4 +14,4 @@ Then run `bundle exec jekyll serve` and open your browser at `http://localhost:4
 
 ## License
 
-The theme is available as open source under the terms of the [Microsoft Public License](https://github.com/MvvmCross/MvvmCross/blob/master/LICENSE).
+The theme is available as open source under the terms of the [Microsoft Public License](https://github.com/DevForDev/blob/master/LICENSE).

@@ -91,6 +91,9 @@ menu:
 
 category_order:
   - 'Angular'
+  - 'C#'
+  - 'Javascript'
+  - 'Sql'
   - 'Getting-started'
   - 'Fundamentals'
   - 'Platform specifics'

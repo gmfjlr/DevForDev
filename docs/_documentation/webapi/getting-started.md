@@ -102,7 +102,7 @@ If manipulating instances of a certain entity type does not require the traversa
 
 Collection resources may be subject to an interpretation of its associated relationship types, i.e. collections may only make sense as children of other resources (so-called scoped collections).
 
-For example: The Products collection resource is not scoped, i.e. this collection is a first class resource of the sample resource model. In contrast to this, the Items collection resource in fact is scoped: the collection of all items in all shopping carts is typically not of interest at all, but all items within a certain shopping cart is of interest. Thus, collections of Items dependent on a certain shopping cart is a collection resource (see section 5.6 how to denote such scoped collections).
+For example: The Products collection resource is not scoped, i.e. this collection is a first class resource of the sample resource model. In contrast to this, the Items collection resource in fact is scoped: the collection of all items in all shopping carts is typically not of interest at all, but all items within a certain shopping cart is of interest. Thus, collections of Items dependent on a certain shopping cart is a collection resource.
 
 If the API has to support the direct creation of instances of an entity type, this entity type results in a collection resource. This is because in the REST paradigm a collection resource is a factory for its members. The entity type itself is the basis for atomic resources that are the members of the collection resource.
 

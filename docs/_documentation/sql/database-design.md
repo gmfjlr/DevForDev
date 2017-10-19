@@ -9,7 +9,7 @@ order: 2
 
 ### Important Recomendation
 
-Database design is the critical part of any application. Developing software without a proper database design is similar to building a Multi-storied building with no proper foundation. Multi-storied building will collapse once it is occupied or some floors are added to the existing building. The same scenario will happen here also. So database design need to be done by database experts who have relevant experience desired database server. This is because Oracle and MS SQL Server has different architectures internally. Here I am discussing about OLTP database.
+Database design is the critical part of any application. Developing software without a proper database design is similar to building a Multi-storied building with no proper foundation. Multi-storied building will collapse once it is occupied or some floors are added to the existing building. The same scenario will happen here also. So database design need to be done by database experts who have relevant experience desired database server. This is because Oracle and MS SQL Server has different architectures internally. Here we are discussing about OLTP database.
 
 ### Best Practices
 

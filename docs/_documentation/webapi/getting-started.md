@@ -5,6 +5,8 @@ title: Getting Started
 order: 1
 ---
 
+First of all, please read this to understand [SOAP vs REST](http://spf13.com/post/soap-vs-rest/)
+
 ## Introduction
 
 When following the guideline of this document the resulting API(Application Programming Interface) will reach Level 1 of the [Richardson Maturity Model](https://www.martinfowler.com/articles/richardsonMaturityModel.html) ([1], [4]). That means a resource model has been provided, use of proper HTTP(S) methods has been made, use of appropriate HTTP headers have been identified, and HTTP status codes are used in responses.

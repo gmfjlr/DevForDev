@@ -8,8 +8,8 @@ order: 3
 IF you write bad SQL Code, be ready to face the performance issues. So SQL Code should be written by dedicated sql programmers. Good experienced sql developers can write very good sql code, which will definitely improve the performance of the database. So write your SQL code with SQL Experts.
 
 ### Best Practices
-
-  - Don’t use `select * from tablename` instead write selected column names.Example: `Select col1, col2 from tablename`.
+  
+  - Don’t use `select * from tablename` instead write selected column names.Example: `Select col1, col2 from tablename`.
   - Use comments for each block of code.
   - Don’t use `SP_` while naming your Procedure (Learn From here).
   - Use `CTE` Common table Expression instead of temporary tables. `CTE` scope is limited to the next statement in the query. (Learn From here)

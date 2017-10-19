@@ -1,5 +1,5 @@
 ---
-layout: documetation
+layout: documentation
 category: WebAPI
 title: Getting Started
 order: 1

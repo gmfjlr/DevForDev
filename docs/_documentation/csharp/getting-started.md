@@ -1,6 +1,6 @@
 ---
 layout: documentation
-category: C#
+category: WebAPI
 title: Getting Started
 order: 1
 ---

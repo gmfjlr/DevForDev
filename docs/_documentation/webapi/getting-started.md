@@ -42,3 +42,59 @@ The main purpose of the data model behind an API is to specify the properties of
 Figure 2 depicts a sample data model that will be used in the following sections to give examples on how to apply the given guidelines.
 
 The data model is an important source to determine an appropriate resource model. However, the way clients interact with the API is a significant influencer of the resource model derived from the data model ("clients win over data"). The domain model drives the implementation of the API, while the resource model is driven by client interactions. But typically, the resource model will "follow the data model".
+
+## Resource Model
+
+The resource model specifies the resources that are processed by the API. Several kinds of resources will derived from both, the data model as well as the corresponding processing requirements.
+
+### Atomic Resources
+
+The most basic decision to be made for deriving resources is identifying entities of the data model that are exchanged as a whole via the API. Such entities become atomic resources.
+
+For example, based on the sample data model in Figure 2, the Customer entity will become such an atomic entity. This is because details about a customer like his address, payment information etc. will be accessed in several scenarios suported by the API.
+
+### Collection Resources
+
+The next decision to be made is whether atomic resources of the same type are needed to be grouped into a set. Such bundles become collection resources.
+
+For example, products will become a collection resource because the application supports a catalogue that allows browsing through (subsets of) all products available. Note, that there is no products entity type in the data model. Because the application requires such a collection resource we derive it from the data model and give it a new name that corresponds to the plural of the name of the grouped entity type.
+
+As another example, items will become a collection resource that represent all items contained in a shopping cart of a certain customer. This collection will be scoped, i.e. only the items in a specific shopping cart are of interest but not the set of all items in all shopping carts (see section 5.6 for more details on scoping).
+
+Finally, whenever the API supports the creation of an instance of one of the entity types of the data model, this entity type results in a corresponding collection resource. For example, a new customer may register with the application resulting in a new instance of the Customer entity type. Thus, Customers will become a collection resource.
+
+### Composite Resources
+
+Sometimes, instances of groups of different entity types are manipulated as a whole because these instances are perceived as aggregates, e.g. they are typically collectively retrieved or deleted. Such groups become composite resources.
+
+For example, a Shopping Cart is a composite resource because it is often retrieved or deleted as a whole, i.e. with all of its encompassed items.
+
+
+
+### Controller Resource
+
+Controller resources are used when multiple resources have to be manipulated in a single API call in order to maintain data consistency. If integrity rules between resources must be obeyed, a client would have to understand these rules like the order in which resources are to be manipulated. By providing a controller resource to manipulate these resource in a single API call relieves the client from having to understand these rules - a significant contribution to loose coupling.
+
+For example, deleting each individual item of a shopping cart one after the other may result in consistency problems in case an error occurs after having deleted only the first few items while others are still left in the shopping cart: a customer requesting the shopping cart just at this point in time of failure will realize a "broken" shopping cart.
+
+Another example is the update of two account resources to realize a funds transfer - the classical motivation for ACID (Atomicity, Consistency, Isolation and Durability) transactions. Each of these two accounts is an atomic resource, i.e. controller resources are different from composite resources.
+
+### Processing Function Resources
+
+Processing function resources (aka computing resources) provide access to functions that either process particular resources, or that perform certain resource independent computations. In practice, processing function resources are often used for predefined partial updates of a resource.
+
+For example, changing the status of a resource like the price of a product, or getting the official exchange rate between two currencies can be realized by means of a processing function resource.
+
+**Note**: Partial updates are addressed by the HTTP PATCH method [7]. The problem with PATCH is two-fold:
+
+  - The PATCH method is not (yet) supported by all web servers. Of course, this problem may go away.
+  - The syntax and semantics for each use of the PATH method must be crisply defined: The resource enclosed in the body of a PATCH method is an instruction document, i.e. a set of instructions precisely describing what has to be updated and how, and all of these instructions must be performed atomically. Especially, the media type of this instruction document is typically different from the media type of the resource that is to be modified by the PATCH. The instruction document may be perceived as a sort of transaction on the resource to be manipulated.
+
+This results in broad exploitation of processing function resources for realizing partial updates.
+
+
+
+
+
+
+

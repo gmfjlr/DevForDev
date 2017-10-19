@@ -20,7 +20,8 @@ Database design is the critical part of any application. Developing software wit
   
 ### Naming Conventions
   
-  - Tables/Procedures/views: Use Pascal Notations for SQL Server objects like Tables, Procedures and views. For e.g.: EmployeeDetails.
-  - Primary Key : Use Pk_<table_name> for Primary key. Eg: PK_ EmployeeDetails.
-  - Non Clustered Index: Create IX_<table_name>_<column1>_...<columnN>, where column1 to column N are columns used in the index.
-  - Default: Example: DF_<table_name>_<column_name> 
+  - `Tables/Procedures/views`: Use Pascal Notations for SQL Server objects like Tables, Procedures and views. For e.g.: EmployeeDetails.
+  - `Primary Key`: Use Pk_<table_name> for Primary key. Eg: PK_ EmployeeDetails.
+  - `Non Clustered Index`: Create IX_<table_name>_<column1>_...<columnN>, where column1 to column N are columns used in the index.
+  - `Default`: Example: DF_<table_name>_<column_name>
+  

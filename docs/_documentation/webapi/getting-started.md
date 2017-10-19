@@ -16,7 +16,7 @@ The top level - Level 3 - of the Richardson Maturity Model will not be reached. 
 The following major steps should be followed to create a RESTful (Level 2) API (see Figure 1).
 
 <img width="1140" src="https://github.com/gmfjlr/DevForDev/raw/master/docs/assets/img/webapi/webapi%20-%20image1.png"> 
-** Figure 1: REST API Design Approach **
+**Figure 1: REST API Design Approach**
 
 First, a model of the data to be manipulated by the API is created. From this data model the resources of the API will be determined; typically, here is no one-to-one correspondence between data model elements and resources of the API, especially because new kinds of resources will typically be derived. For each of the resources the representations supported by the APIs have to be determined. Next, these resources must be named properly by means of URIs (Uniform Resource Identifiers). For each of the resources the HTTP methods used to perform the required application functions have to be decided; this includes the use of applicable HTTP headers. Special behavior required by the application (e.g. concurrency control, long running requests) has to be decided. Finally, potential error situations have to be identified and corresponding error messages have to be designed.
 
@@ -35,7 +35,7 @@ The data model behind an API can be specified by any conceptual data modeling la
 The main purpose of the data model behind an API is to specify the properties of the resources manipulated by an API in an abstract (i.e. implementation independent) manner. By specifying the attributes of the entity types of the data model no early decision is made about the format and media type in which instances of the entity types (aka representations in REST) are exchanged - this decision will be made later, and it can be changed during the lifetime of an API. Thus, it results in more flexibility in the development process.
 
 <img width="1140" src="https://github.com/gmfjlr/DevForDev/raw/master/docs/assets/img/webapi/webapi%20-%20image2.png"> 
-** Figure 2: Sample Data Model **
+**Figure 2: Sample Data Model**
 
 Figure 2 depicts a sample data model that will be used in the following sections to give examples on how to apply the given guidelines.
 

@@ -12,8 +12,8 @@ IF you write bad SQL Code, be ready to face the performance issues. So SQL Code 
   - Don´t use `select * from tablename` instead write selected column names.Example: `Select col1, col2 from tablename`.
   - Use comments for each block of code.
   - Don´t use `SP_` while naming your Procedure (Learn From here).
-  - Use `CTE` Common table Expression instead of temporary tables. `CTE` scope is limited to the next statement in the query. [Learn From here](https://www.codeproject.com/articles/265371/common-table-expressions-cte-in-sql-server)
-  - Use `SET NOCOUNT ON` in the procedures. This will really improve the performance.
+  - Use `CTE` Common table Expression instead of temporary tables. `CTE` scope is limited to the next statement in the query. [Learn From here](https://www.codeproject.com/articles/265371/common-table-expressions-cte-in-sql-server).
+  - Use `SET NOCOUNT ON` in the procedures. This will really improve the performance.
   - Avoid using `cursors` in Procedures, rather use `case` statement, `while loop` or `Merge` clause.
   - Don´t use `Recompile` option in stored procedure.
   - While working with complicated logics use parenthesis to improve the readability.

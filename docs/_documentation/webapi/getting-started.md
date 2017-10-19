@@ -15,7 +15,3 @@ The top level - Level 3 - of the Richardson Maturity Model will not be reached. 
 
 The following major steps should be followed to create a RESTful (Level 2) API (see Figure 1).
 
-The
-following major steps should be followed to create a RESTful (Level 2) API (see
-Figure 1).
-

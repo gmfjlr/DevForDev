@@ -21,7 +21,7 @@ IF you write bad SQL Code, be ready to face the performance issues. So SQL Code 
   - Use `IF Exists` rather than `count (*)` for data existence in table.
   - Don´t query data from Application side, instead use stored procedures.
   - Don´t use store Images in the database, rather use File streams.
-  - Try to avoid dynamic SQL, since it is slower than Static SQL.[Learn From here](http://www.sqlservercentral.com/articles/Security/dynamicsqlversusstaticsqlp1/617/)
+  - Try to avoid dynamic SQL, since it is slower than Static SQL.[Learn From here](http://www.sqlservercentral.com/articles/Security/dynamicsqlversusstaticsqlp1/617/)
   - Always use column names in insert statement.
   - Use `Union` only if required otherwise use `Union all`.
   - Use `Except` and `Not Exists` Instead of Left join and Not in- Use `sp_executesql` instead of `Exec(@str)` for the execution of dynamic sql.

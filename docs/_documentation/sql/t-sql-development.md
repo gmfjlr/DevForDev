@@ -85,8 +85,8 @@ Don´t use
 
 This is the most important act of the developer when is writting code, this helps to identify and understand the main activities of the script, you must comment everything that is important:
   
-  - `Single line comment`: This represents a single line comment using `--`.
-  - `Multiple line comment`: This represents block of lines of comments using `/* . . . */`.
+  - **Single line comment**: This represents a single line comment using `--`.
+  - **Multiple line comment**: This represents block of lines of comments using `/* . . . */`.
   
 There are some template to achieve this:
 

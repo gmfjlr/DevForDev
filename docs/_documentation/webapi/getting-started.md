@@ -92,7 +92,19 @@ For example, changing the status of a resource like the price of a product, or g
 
 This results in broad exploitation of processing function resources for realizing partial updates.
 
+### Interpreting Relationships
 
+One of the basic problems of deriving a resource model from a data model is in interpreting the relationships between entity types of the data model.
+
+If manipulating instances of a certain entity type does not require the traversal of its associated relationships, then such an entity type is a candidate for an atomic resource: if the instances have to be available via the API, the entity type is transformed into an atomic resource in a one-one correspondence.
+
+Collection resources may be subject to an interpretation of its associated relationship types, i.e. collections may only make sense as children of other resources (so-called scoped collections - see 5.6).
+
+For example: The Products collection resource is not scoped, i.e. this collection is a first class resource of the sample resource model. In contrast to this, the Items collection resource in fact is scoped: the collection of all items in all shopping carts is typically not of interest at all, but all items within a certain shopping cart is of interest. Thus, collections of Items dependent on a certain shopping cart is a collection resource (see section 5.6 how to denote such scoped collections).
+
+If the API has to support the direct creation of instances of an entity type, this entity type results in a collection resource. This is because in the REST paradigm a collection resource is a factory for its members (see section 7.3). The entity type itself is the basis for atomic resources that are the members of the collection resource.
+
+Processing function resources as well as controller resources result from functional requirements: they are typically not immediately derived from the data model but from update requirements or from requirements to derive information that may not even be related to some other resources.
 
 
 

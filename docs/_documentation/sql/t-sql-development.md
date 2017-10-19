@@ -24,7 +24,8 @@ IF you write bad SQL Code, be ready to face the performance issues. So SQL Code 
   - Try to avoid dynamic SQL, since it is slower than Static SQL.[Learn From here](http://www.sqlservercentral.com/articles/Security/dynamicsqlversusstaticsqlp1/617/)
   - Always use column names in insert statement.
   - Use `Union` only if required otherwise use `Union all`.
-  - Use `Except` and `Not Exists` Instead of Left join and Not in- Use `sp_executesql` instead of `Exec(@str)` for the execution of dynamic sql.
+  - Use `Except` and `Not Exists` Instead of `Left Join` and `Not In`.
+  - Use `sp_executesql` instead of `Exec(@str)` for the execution of dynamic sql.
   - Design Indexes effectively and make sure that created indexes are used by the queries. Don’t make too much indexes in a table.
   - Use Merge operator for multiple DML operations `Insert`, `Update`, `Delete`. (Learn From here).
   - Use policy management to enforce for configuring and managing SQL Server across the organization.

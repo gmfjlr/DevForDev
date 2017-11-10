@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Getting Started with GMF
+title: Getting Started
 category: Getting-started
 order: 1
 ---

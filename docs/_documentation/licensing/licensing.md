@@ -3,7 +3,7 @@ layout: documentation
 title: Licensing
 category: Licensing
 ---
-**MvvmCross** is licensed under the [MS-PL License](http://opensource.org/licenses/ms-pl.html)
+**DevForDev** is licensed under the [MS-PL License](http://opensource.org/licenses/ms-pl.html)
 ## Microsoft Public License (MS-PL)
 
 This license governs use of the accompanying software. If you use the software, you

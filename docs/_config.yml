@@ -48,7 +48,7 @@ exclude:
 # End
 
 # Github metadata settings
-repository: gmfjlr/GMF-PointOfSales
+repository: gmfjlr/DevForDev
 # End
 
 # jekyll-seo-tag settings
@@ -81,12 +81,9 @@ collections:
 
 # Site menu settings
 menu:
-  - title: "Blog"
-    url: "/blog"
   - title: "Documentation"
     url: "/documentation"
-  - title: "Support"
-    url: "/support"
+  
 # End
 
 category_order:

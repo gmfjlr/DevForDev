@@ -87,6 +87,7 @@ menu:
 # End
 
 category_order:
+  - 'CSharp'
   - 'Angular'
   - 'Javascript'
   - 'WebAPI'

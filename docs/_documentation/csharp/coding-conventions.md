@@ -2,7 +2,7 @@
 layout: documentation
 category: CSharp
 title: Coding Conventions
-order: 1
+order: 2
 ---
 
 Please visit [C# Coding Conventions (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions/)
